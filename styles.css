@@ -48,6 +48,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  height: 100%;
 }
 
 .fa-gem {
@@ -233,16 +234,11 @@
     }
   }
 
-  /* main content */
+  /* Hero Section CSS */
   .main__container {
-    background: #faeee7;
     margin-left: 10%;
     margin-top: 13%;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
   }
 
   .main__content {
@@ -254,18 +250,16 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
-    padding-right: 350px;
+    height: 90vh;
 }
 
   .main__content p {
     display: flex;
-    text-decoration: none;
-    height: 100%;
     font-size: 1.2rem;
+    font-weight: 400;
     line-height: 32px;
     margin: 5% 0% 1%;
     color: #594a4e;
-
   }
 
   span {
@@ -275,28 +269,39 @@
   a, u {
     text-decoration: none;
   }
-
+  
   .images {
     width: 40%;
     height: 75%;
     position: absolute;
-    bottom: 0;
     right: 5px;
+    top: 15%;
   }
 
-  .images img {
-    height: 100%;
+  .images .emily {
+    width: 100%;
+    height: auto;
     position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    right: 20%;
+    transition: right 1s;
+  }
+
+  .shape {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    bottom: -15px;
+    right: 15%;
+    transition: bottom 1s;
   }
 
   .images:hover .shape {
-    bottom: 40px;
+    bottom: 10px;
   }
 
-  .images:hover .profile {
-    left: 45%;
+  .images:hover .emily {
+    right: 0.1px
   }
