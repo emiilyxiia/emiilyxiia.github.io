@@ -1,57 +1,123 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <!-- Nav Bar -->
-  <body>
-    <nav class="navbar">
-      <div class="navbar__container">
-        <img src="images/logo.PNG" class = "logo">
-        <a href="/" id="navbar__logo">Emily Xia</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="/" class="navbar__links"> Home </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/projects.html" class="navbar__links"> Projects </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/" class="navbar__links"> Art </a>
-          </li>
-          <li class="navbar__button">
-            <a href="/" class="button"> Say hi! </a>
-          </li>
-        </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An official portfolio website for Emily Xia">
+  <meta name="author" content="Emily Xia">
+
+  <!-- Google Font CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Nav Bar -->
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="https://emiilyxiia.github.io/"><img src="images/logo.png" class = "logo">
+      </a>
+      <a href="https://emiilyxiia.github.io/" id="navbar__logo">Emily Xia
+      </a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-    </nav>
-    <!-- Hero Section-->
-    <div class="main">
-      <div class="main__container"></div>
-        <div class="main__content">
-          <h1>Hello, I am <span>Emily</span> Xia</h1>
-          <p>Welcome to my official portfolio website
-            <br> AKA a coding project to self-learn Javascript, HTML/CSS, and display my work.
-          </p>
-        </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="https://emilyxia.portfolio.site/" class="navbar__links"> Art </a>
+        </li>
+        <li class="navbar__item">
+          <a href="projects.html" class="navbar__links"> Projects </a>
+        </li>
+        <li class="navbar__item">
+          <a href="blogs.html" class="navbar__links"> Blogs </a>
+        </li>
+        <li class="navbar__button">
+          <a href="/" class="button"> Contact me </a>
+        </li>
+      </ul>
     </div>
-    <div class="images">
-      <img src="images/Emily.PNG" class = "emily">
-      <img src="images/shape.png" class = "shape">
+  </nav>
+
+  <!-- Hero Section-->
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Hi, I'm <span>Emily</span> Xia</h1>
+        <p>Welcome to my official portfolio website: a coding project to learn Javascript, HTML, and CSS!
+          <br>
+          <a href="https://www.linkedin.com/in/emilyxia-/">
+            <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" id="linkedin"/>
+          </a>
+          <a href="https://github.com/emiilyxiia">
+            <img src="https://img.shields.io/badge/-Github-black?logo=github&logoColor=white&style=for-the-badge&logoWidth=20" id="github"/>
+          </a>
+        </p>
+      </div>
+      <div class="images">
+        <img src="images/shape.png" class = "shape">
+        <img src="images/Emily.png" class = "emily">
+      </div>
     </div>
-    <script src="app.js"></script>
-    <h1></h1>
-  </body>
-  </html>
+  </div>
+
+  <div class="info">
+  <!-- About Me Section -->
+    <div class="about__container">
+      <div class="about__content">
+        <h1> About Me </h1>
+        <p>I am a first-year student at Columbia University with a major in Computer Science and concentration in Business Management. Fueled by a passion for learning and collaboration, I am interested in building products that can solve real-world problems. While I am most proficient at coding in <span>Java</span> and conducting statistical tests through <span>R</span>, I am always looking to expand my knowledge.</p>
+        <br>
+        <p>For instance, my creative passions in <span>art and philosophy</span> has led me to self-learn <span>Javascript, HTML, and CSS</span> by hard-coding this website without using any templates or frameworks. I will continue updating it as I learn tools such as React and Bootstrap. </p>
+        <br>
+        <p> Last but not least, my experience as a game project intern at Tencent has taught me how to optimize user experience and refined my communication skills within a team-based environment. I look forward to continue developing leadership and teamwork skills through contributions to open source, personal/group projects, and internships.
+        </p>
+      </div>
+    </div>
+    
+    <div class="space"> </div>
+
+    <!-- Updates -->
+    <div class="updates__container">
+      <div class="updates__content">
+        <h1>Updates </h1>
+        <p>Current Project: Chrome Extension w/ web scraper tool coded in Java</p>
+        <br>
+        <p> (January 15, 2023) Personal website launch: coded with reactive website design in mind.</p>
+      </div>
+    </div>
+
+    <div class="space"> </div>
+
+    <!-- Mischellaneous -->
+    <div class="misc__container">
+      <div class="misc__content">
+        <ul style = "list-style-type:disc">
+          <h1> Mischellaneous </h1>
+          </ul>
+          <li>I love all things water: swimming, water polo, surfing, skiing, you name it!</li>
+          <li> I am passionate about Asian women empowerment and  representation in CS and the media, which is why I am a member of the <a href="http://www.columbia.edu/cu/csc/">Chinese Students Club</a> and <a href="https://outreach.engineering.columbia.edu/content/society-women-engineers"> Society of Women Engineers</a> </li>
+          <li>I work on a personal philosophy podcast, The Philosopher's Dilemma, in my free time.</li>
+          <li>I have a dream diary complete with sketches!</li>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="space"> </div>
+  <div class="copyright">
+    <p>© 2023 Emily Xia</p>
+  </div>
+  <div class="space"> </div>
+
+  <script src="app.js"></script>
+  <h1></h1>
+</body>
+</html>
