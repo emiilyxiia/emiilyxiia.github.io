@@ -290,16 +290,16 @@
   .shape {
     position: absolute;
     width: 110%;
-    top: -9px;
+    top: -29px;
     transition: 1s top;
   }
 
   .images:hover .emily {
-    left: -40px;
+    left: -30px;
   }
 
   .images:hover .shape {
-    top: -40px;
+    top: -9%;
   }
 
   br {
@@ -378,4 +378,127 @@
       line-height: 45px;
       color: #594a4e;
     }
+  }
+
+  /* Information Section */
+  .about__container {
+    background: #faeee7;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    top: 0;
+    padding: 50px 50px;
+    border-radius: 25px;
+  }
+
+  .about__content h1{
+    font-size: 2rem;
+    color: #33272a;
+    margin-bottom: 1rem;
+  }
+
+  .about__content p{
+    font-size: 1rem;
+    color: #594a4e;
+    margin-bottom: 1rem;
+    line-height: 25px;
+  }
+
+  .updates__container {
+    background: #faeee7;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 25px;
+  }
+
+  .updates__content h1{
+    font-size: 2rem;
+    color: #33272a;
+    margin-bottom: 1rem;
+  }
+
+  .updates__content p{
+    font-size: 1rem;
+    color: #594a4e;
+    margin-bottom: 1rem;
+    line-height: 25px;
+  }
+
+  .misc__container {
+    background: #faeee7;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 25px;
+  }
+
+  .misc__content h1{
+    font-size: 2rem;
+    color: #33272a;
+    margin-bottom: 1rem;
+  }
+
+  .misc__content {
+    font-size: 1rem;
+    color: #594a4e;
+    margin-bottom: 1rem;
+    line-height: 25px;
+  }
+
+  .space {
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    max-width: 1300px;
+  }
+
+  .copyright {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .info {
+      margin: 30% 0 2%;
+    }
+  }
+
+  .blogs__container {
+    background: #faeee7;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 25px;
+  }
+
+  .projects__container {
+    background: #faeee7;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 25px;
   }
