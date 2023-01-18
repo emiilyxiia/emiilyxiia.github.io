@@ -25,6 +25,6 @@ This project was created in my endeavor to learn Javascript, HTML, and CSS. Curr
 
 ---
 
-### :lightbulb: Future Ideas (after plans in documentation):
+### 💡: Future Ideas (after plans in documentation):
 - User login functionality: See jan 16 plan. Users who take the quiz can create their own account (ability to name themselves, upload profile photos, add a bio, look up list of users)
 - Game of press the button
