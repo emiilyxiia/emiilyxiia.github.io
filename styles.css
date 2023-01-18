@@ -305,10 +305,16 @@
     top: -8%;
   }
 
+  .main__content br {
+    display: block;
+    content: " ";
+    margin-top: 6%;
+  }
+
   br {
     display: block;
     content: " ";
-    margin-top: 20px;
+    margin-top: 15px;
   }
   
   /* Mobile Responsive */
