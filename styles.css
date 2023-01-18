@@ -20,11 +20,11 @@
 
 .navbar__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -76,7 +76,7 @@
   height: 100%
 }
 
-.navbar__button {
+.navbar__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,7 +84,7 @@
   width: 100%
 }
 
-.button {
+#btn {
   background: #c3f0ca;
   color: #594a4e;
   display: flex;
@@ -97,10 +97,10 @@
   border: solid #594a4e;
   outline: none;
   border-radius: 4px;
-
+  cursor: pointer;
 }
 
-.button:hover {
+#btn:hover {
   background: #ff8ba7;
   transition: all 0.3s ease;
 }
@@ -120,11 +120,11 @@
     .navbar__container {
       background: #faeee7;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       height: 80px;
       z-index: 1;
       width: 100%;
-      max-width: 1200px;
+      max-width: 1300px;
       padding: 0;
     }
 
@@ -154,7 +154,8 @@
     }
 
     #navbar__logo {
-      padding-right: 400px;
+      display: flex;
+      align-items: flex-start;
     }
 
     .logo {
@@ -186,20 +187,20 @@
       display: table;
     }
 
-    .navbar__button {
+    .navbar__btn {
       padding-bottom: 2rem;
     }
 
-    .button {
+    #btn {
       display: flex;
-      justify-content: centered;
+      justify-content: center;
       align-items: center;
       width: 80%;
       height: 80px;
       margin: 0;
     }
 
-    .button:hover {
+    #btn:hover {
       background: #ff8ba7;
       transition: all 0.3s ease;
     }
@@ -284,7 +285,7 @@
   .emily {
     position: absolute;
     width: 100%;
-    left: 10%;
+    left: 3%;
     transition: 1s left;
   }
 
@@ -292,6 +293,7 @@
     position: absolute;
     width: 110%;
     top: 10px;
+    left: 1%;
     transition: 1s top;
   }
 
@@ -300,7 +302,7 @@
   }
 
   .images:hover .shape {
-    top: -9%;
+    top: -8%;
   }
 
   br {
@@ -351,18 +353,21 @@
       position: relative;
       width: 100%;
       height: 90vh;
+      left: 7%;
+      z-index: 1;
     }
   
     .emily {
       position: absolute;
       width: 80%;
       text-align: center;
+
     }
   
     .shape {
       position: absolute;
       width: 90%;
-      top: -20px;
+      top: -10px;
       text-align: center;
     }
   }
