@@ -6,7 +6,7 @@
 }
 
 /* prevents horizontal scrolling */
-html {
+html, body{
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -312,7 +312,12 @@ html {
   }
   
   /* Mobile Responsive */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
+
+    body {
+      overflow-x: auto;
+    }
+
     .main__container {
       display: grid;
       grid-template-columns: auto;
