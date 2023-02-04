@@ -6,7 +6,7 @@
 }
 
 /* prevents horizontal scrolling */
-html, body {
+html {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -42,19 +42,13 @@ html, body {
   align-items: center;
   text-decoration: none;
   font-size: 2rem;
-  padding-right: 500px;
   padding-left: 10px;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  margin-right: 0.5rem;
   cursor: pointer;
   height: 100%;
-}
-
-.fa-gem {
-  margin-right: 0.5rem;
 }
 
 .navbar__menu {
@@ -156,16 +150,7 @@ html, body {
     }
 
     #navbar__logo {
-      display: absolute;
-      margin: 10px;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      cursor: pointer;
       padding-left: 25px;
-      padding-right: 25px;
     }
 
     .navbar__toggle .bar {
@@ -277,16 +262,15 @@ html, body {
 
   .images {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: 90vh;
-    max-width: 1200px;
-    padding: 40px 50px;
+    padding: 20px 50px;
 
   }
 
   .emily {
     position: absolute;
-    width: 100%;
+    max-width: 100%;
     left: 3%;
     transition: 1s left;
   }
@@ -294,7 +278,7 @@ html, body {
   .shape {
     position: absolute;
     width: 110%;
-    top: 10px;
+    top: 5px;
     left: 1%;
     transition: 1s top;
   }
@@ -360,7 +344,7 @@ html, body {
   
     .images {
       position: relative;
-      width: 100%;
+      max-width: 100%;
       height: 90vh;
       left: 7%;
       z-index: 1;
@@ -368,15 +352,15 @@ html, body {
   
     .emily {
       position: absolute;
-      width: 80%;
+      max-width: 80%;
       text-align: center;
 
     }
   
     .shape {
       position: absolute;
-      width: 90%;
-      top: -10px;
+      max-width: 90%;
+      top: -5%;
       text-align: center;
     }
   }
